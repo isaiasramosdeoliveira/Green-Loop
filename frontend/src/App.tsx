@@ -1,9 +1,13 @@
 import React from 'react';
+import { Outlet } from 'react-router';
+import Container from './patterns/Container';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Container>
+        <Outlet />
+      </Container>
     </div>
   );
 }
