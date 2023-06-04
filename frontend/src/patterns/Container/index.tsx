@@ -1,7 +1,7 @@
 import React from 'react'
 
-interface IMain{
-    children: React.ReactElement
+interface IMain {
+  children: React.ReactNode;
 }
 
 const Container = ({children}: IMain) => {
